@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <link rel="stylesheet" href="main.css">
     <title>Home Expenses</title>
 </head>
 <body>
     <main>
         <section class="head-section">
-            <p class="head-section-p">Enter Your Expences</p>
+            <p class="head-section-p">Enter Your Products</p>
             <div class="head-section-inputs-container1">
                 <input type="text" name="product-receiver" id="product-receiver-input" class="head-section-inpCon1-input1" placeholder="Product">
                 <input type="number" class="head-section-inpCon1-input2 " placeholder="Cost" >
                 <button class="head-section-inpCon1-btn">Add</button>
             </div>
             <div class="head-section-radioChecker-container">
-                <hr> <button class="head-section-raCheckCon-btn">+</button>
+                <div class="head-section-radioChecker-container-div1" >
+                    <hr> <button class="head-section-raCheckCon-btn">+</button>
+                </div>
                 <div  class="head-section-raCheckCon-radioWrapper">
-                    <div ><input type="radio"><label for="">Uncle</label></div>
-                    <div><input type="radio"><label for="person">Father</label></div>
-                    <div><input type="radio"><label for="person">Myself</label></div>
-                    </div>
+                    <div ><input type="checkbox"><label for="person"  class="labels">Uncle</label></div>
+                    <div><input type="checkbox"><label for="person" class="labels">Father</label></div>
+                    <div><input type="checkbox"><label for="person" class="labels">Myself</label></div>
+                </div>
             </div>
         </section>
-    
-        <!-- <section>
-            <table>
+ 
+        <section class="table-section">
+            <p class="table-section-title">Monthly expenses:</p>
+        <div class="table-container">
+            <table class="table-section-table">
                 <thead>
                     <tr>
                         <th>Order</th>
@@ -42,12 +48,49 @@
                         <td>1.</td>
                         <td>Pomegranate</td>
                         <td>10 000 so'm</td>
-                        <td><img src="./src/pic/checkIcon.jpg">Uncle</td>
-                        <td><button><img src="./src/pic/binIcon.jpg"></button></td>
+                        <td class="whoBought"><i class="fa-solid fa-check"></i>Uncle</td>
+                        <td><button class="deleteBtn" style="width: 2vw; height: 1.5vw;background-color: #E3E4E8; font-size: 1vw; outline: none; border: none;"><i class="fa-solid fa-trash"></i></button></td>
                     </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Potato</td>
+                        <td>10 100 so'm</td>
+                        <td class="whoBought"><img src="./src/pic/checkIcon.jpg" width="70" height="70" >Uncle</td>
+                        <td><button class="deleteBtn" style="width: 2vw; height: 1.5vw;background-color: #E3E4E8; font-size: 1vw; outline: none; border: none;"><i class="fa-solid fa-trash"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Melon</td>
+                        <td>20 000 so'm</td>
+                        <td class="whoBought"><img src="./src/pic/checkIcon.jpg" width="70" height="70" >Uncle</td>
+                        <td><button class="deleteBtn" style="width: 2vw; height: 1.5vw;background-color: #E3E4E8; font-size: 1vw; outline: none; border: none;"><i class="fa-solid fa-trash"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Watermelon</td>
+                        <td>11 000 so'm</td>
+                        <td class="whoBought"><img src="./src/pic/checkIcon.jpg" width="70" height="70" >Uncle</td>
+                        <td><button class="deleteBtn" style="width: 2vw; height: 1.5vw;background-color: #E3E4E8; font-size: 1vw; outline: none; border: none;"><i class="fa-solid fa-trash"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Radish</td>
+                        <td>2 000 so'm</td>
+                        <td class="whoBought"><img src="./src/pic/checkIcon.jpg" width="70" height="70" >Uncle</td>
+                        <td><button class="deleteBtn" style="width: 2vw; height: 1.5vw;background-color: #E3E4E8; font-size: 1vw; outline: none; border: none;"><i class="fa-solid fa-trash"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Cucumber</td>
+                        <td>15 000 so'm</td>
+                        <td class="whoBought"><img src="./src/pic/checkIcon.jpg" width="70" height="70" >Uncle</td>
+                        <td><button class="deleteBtn" style="width: 2vw; height: 1.5vw;background-color: #E3E4E8; font-size: 1vw; outline: none; border: none;"><i class="fa-solid fa-trash"></i></button></td>
+                    </tr>
+                    
                 </tbody>
             </table>
-        </section> -->
+        </div>
+        </section>  
     </main>
     <script src="/index.js"></script>
 </body>

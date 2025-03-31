@@ -116,3 +116,144 @@ main{
 }
 
  
+hr{
+    height: 1px;
+    background-color: black;
+    width: 90%;
+    text-align: left;
+    margin-left: 0;
+    margin-top: 0.8vw;
+    display: inline-block;
+}
+
+.head-section-radioChecker-container{
+    margin-top: 1vw;
+}
+
+.head-section-radioChecker-container-div1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 0;
+}
+
+.head-section-raCheckCon-btn{
+    width: 2vw;
+    font-size: 1.2vw;
+    outline: none;
+    border: none;
+    background-color: #E3E4E8;    
+    cursor: pointer;
+}
+.head-section-raCheckCon-btn:hover{
+    font-size:1.4vw;
+}
+.head-section-raCheckCon-btn:active{
+    font-size: 1.2vw;
+}
+
+.head-section-raCheckCon-radioWrapper{
+    margin-top: 0.4vw;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width:100%;
+}
+
+.head-section-raCheckCon-radioWrapper input[type="checkbox"]{
+   accent-color: black;
+   width: 1vw;
+}
+
+.labels{
+    font-family: cursive;
+    font-size: 1vw;
+}
+
+.head-section-raCheckCon-radioWrapper>div{
+    display: flex;
+    align-items: center;
+}
+.table-section-title{
+    font-family: cursive;
+    font-size: 1.2vw;
+    font-weight: 700;
+    margin-bottom: 0.2vw;
+}
+.table-section{
+    position: absolute;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    top: 34%;
+    left: 15%;
+}
+table{
+    width: 100%;
+    margin-top: 0;
+
+}
+tbody{
+    font-size: 0.8vw;
+}
+thead{
+    height: 0.7vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.table-section-table,th,td,tr{
+    border: 1px solid black;
+    margin-left: 0;
+    border-collapse: collapse;
+    padding: 10px;     
+}
+
+.whoBought{
+    display: flex;
+    align-items: center;
+    border: none;
+}
+ 
+.whoBought>img{
+    width: 1vw;
+    height: 1vw;
+}
+.whoBought{
+    margin-top: 0.2vw;
+}
+
+td>button>img{
+    width: 1.1vw;
+    height: 1.1vw;
+}
+
+.deleteBtn{
+    transition: all;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.deleteBtn:active{
+  font-size: 0.1vw;
+  cursor: pointer;
+  opacity: 0.4;
+  transform: translate(-1px,-2px);
+
+}
+thead{
+    background: url(./src/pic/binIcon.jpg);
+    background-position: right;
+     background-color: aqua;
+     height: 2.1vw;
+      
+}
+
+.table-container{
+    height: 23vw;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+i{
+    margin-right: 2px;
+}
