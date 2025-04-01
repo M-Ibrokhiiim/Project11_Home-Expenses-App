@@ -188,6 +188,7 @@ hr{
     margin: 0 auto;
     top: 34%;
     left: 15%;
+    display: none;
 }
 table{
     width: 100%;
@@ -224,14 +225,18 @@ thead{
 }
 
 td>button>img{
-    width: 1.1vw;
-    height: 1.1vw;
+    width: 1.51vw;
+    height: 1.31vw;
 }
 
 .deleteBtn{
     transition: all;
     transition-duration: 0.3s;
     cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .deleteBtn:active{
   font-size: 0.1vw;
