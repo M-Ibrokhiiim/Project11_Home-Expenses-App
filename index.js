@@ -69,7 +69,7 @@ addBtn.addEventListener('click',()=>{
                 <td>${expense.product}</td>
                 <td>${expense.cost}so'm</td>
                 <td class="whoBought"><i class="fa-solid fa-check"></i>${expense.buyer}</td>
-                <td><button class="deleteBtn" style="width: 2vw; height: 1.5vw;background-color: #E3E4E8; font-size: 1vw; outline: none; border: none;"><i class="fa-solid fa-trash" style="font-size:0.5vw"></i></button></td>
+                
            </tr>
         `
     }) 
