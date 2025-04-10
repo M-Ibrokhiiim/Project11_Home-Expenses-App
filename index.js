@@ -1,3 +1,4 @@
+"use strict"
 const product=document.getElementById('product-receiver-input')
 const cost=document.getElementById('cost-input')
 const addBtn=document.getElementById('add-button')
